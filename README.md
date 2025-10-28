@@ -1,13 +1,13 @@
 # README for Animals Script
 
 ## Author Information
-- **Name:** [Your Full Name]
-- **Course:** [Course Number and Name]
+- **Name:** [Moises Ruelas]
+- **Course:** [CPSC 298]
 - **Assignment:** Animals Script – Case Statement
-- **Date:** [Date of Completion]
+- **Date:** [10/27/25]
 
 ## Program Description
-[Write 2-3 sentences in your own words describing what this script does and its purpose. Explain how it classifies animals and how the program continues to run until the user types "Goodbye".]
+[It asks the user to type an animal name in all capital letters. The program has a case statement that matches the animal and shows a short message about it. The program then keeps asking for animals until the user types "Goodbye", which ends the loop and stops the program.]
 
 ## Animal Classification Rules
 This script determines the type of animal according to the following logic:
@@ -28,23 +28,17 @@ To test with an input file (for example, `animals-input`):
 ./animals.sh < animals-input
 ```
 ## How the Script Works
-[Explain in 3-5 sentences how your script works. Include information about:]
-- The use of the while loop to keep asking for user input
-- The case statement that checks the animal name
-- The * wildcard pattern that handles unknown inputs
-- How the loop exits when "Goodbye" is entered
+[The script keeps asking the user to type an animal name using a while loop. The case statement checks what the user types and shows a message for each animal or says "unkown animal" if it doesn't match anything. When the user types "Goodbye", the script says goodbye and stops the loop.]
+
 
 ## Testing Results
-[Describe your testing process and results. Include:]
-- Example valid inputs you tested (at least three, including “DOG”, “CAT”, “TIGER”)
-- Example invalid inputs and why they produce “unknown animal”
-- How you used the animals-input file to test
+[I tested valid inputs like DOG, CAT, and TIGER to check the correct messages. Invalid inputs like lion or fish showed "unkown animal" because they don't match any case. I also tested using the animals-input fule to see if the script handled multipled inputs correctly.]
 
 ## Challenges and Solutions
 [Optional: Describe any challenges you encountered while creating this script and how you solved them. This could include debugging issues, understanding case statements, or Git workflow problems.]
 
 ## Resources
-[List any resources you used (class slides, ChatGPT, etc.). Please refer to the course syllabus for more details on citations.]
+[Used the class slides and also got help from peers like Anthony Arriaga to assist with any confusion and errors.]
 
 ## License
 This project is part of coursework for Chapman University and is intended for educational purposes.
